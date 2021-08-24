@@ -23,7 +23,7 @@ Small challenge I found on frontend mentor, decided to give it a try, worked on 
 ### Screenshot
 
 ![Alt text](./Full-Size-Screenshot.png)
-![Alt text](./Mobile-Size-Screenshoot.png)
+![Alt text](./Mobile-Size-Screenshot.png)
 
 ## My process
 
