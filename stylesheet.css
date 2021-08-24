@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+:root {
+
+    /* Colors */
+
+        /* Primary */
+        
+        --red: hsl(0, 78%, 62%);
+        --cyan: hsl(180, 62%, 55%);
+        --orange: hsl(34, 97%, 64%);
+        --blue: hsl(212, 86%, 64%);
+
+        /* Neutral */
+
+        --VeryDarkBlue: hsl(234, 12%, 34%);
+        --GrayishBlue: hsl(229, 6%, 66%);
+        --VeryLightGray: hsl(0, 0%, 98%);
+
+    /* Typography */
+
+        /* Fonts */
+
+        /* Light Fonts = 200 */
+        /* Bold Fonts = 600 */
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+
+    position: relative;
+    width: max(66%, 375px);
+    padding-bottom: 3rem;
+}
+
+#hero-title, 
+#hero-title-bold {
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+
+}
+
+#hero-title-bold {
+
+padding-top: 0;
+font-weight: 600;
+
+}
+
+#hero-description {
+
+    margin: auto;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: 100;
+    width: min(34rem, 60vw);
+    width: max(20rem, 60vw);
+}
+
+#card-container {
+
+    position: relative;
+    margin: auto;
+    max-width: 15rem;
+}
+
+#card-1,
+#card-2,
+#card-3,
+#card-4 {
+
+    margin-top: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0px 10px 10px lightgray;
+    min-width: 15rem;
+
+}
+
+
+#card-1-title,
+#card-2-title,
+#card-3-title,
+#card-4-title {
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+#card-1-info,
+#card-2-info,
+#card-3-info,
+#card-4-info {
+
+    padding-top: .25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+#card-1-img,
+#card-2-img,
+#card-3-img,
+#card-4-img {
+
+    position: relative;
+    padding-bottom: 1.5rem;
+    display: flex;
+    left: 65%;
+    object-fit: contain;
+
+}
+
+#card-1 {
+    border-top: 5px solid var(--cyan);
+}
+
+#card-2 {
+    border-top: 5px solid var(--red);
+}
+
+#card-3 {
+    border-top: 5px solid var(--orange);
+}
+
+#card-4 {
+    border-top: 5px solid var(--blue);
+}
+
+
+/* STYLING FOR LARGER SCREENS */
+
+@media(min-width: 376px) {
+
+    *{
+        margin: auto;
+       
+    }
+
+    html{
+        overflow-y: hidden;
+    }
+
+    #hero-description {
+
+        margin: auto;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+        text-align: center;
+        font-weight: 100;
+        width: min(34rem, 60vw);
+    }
+    
+    #card-1,
+    #card-2,
+    #card-3,
+    #card-4 {
+
+        position: relative;
+        width: max(6vw, 23rem);
+        height: max(6vw, 15rem);
+        right: 4rem;
+    }
+
+    #card-1 {
+       right: 29rem;
+       top: 8rem;
+    }
+
+    #card-2 {
+
+        top: -17rem;
+    }
+
+    #card-3 {
+
+        top: -16rem;
+    }
+
+    #card-4 {
+
+        bottom: 40rem;
+        left: 21rem;
+    }
+
+    #card-1-info,
+    #card-2-info,
+    #card-3-info,
+    #card-4-info {
+
+        margin: 0;
+        max-width: 20rem;
+    }
+
+    #card-1-img,
+    #card-2-img,
+    #card-3-img,
+    #card-4-img {
+
+        position:absolute;
+        right: .75rem;
+        bottom: 1rem;
+        }
+
+}
