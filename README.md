@@ -1,37 +1,39 @@
+# Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
-
+Small challenge I found on frontend mentor, decided to give it a try, worked on it for a couple of hours of the course of a few days. It's a simple landing page for differnt products.
 ### Screenshot
 
-![](./screenshot.png)
-
-### Links
-
+![alt text](./FrontendMentor/FourCardLandingPage/images/Full-Size-Screenshot.png)
+![alt text](./FrontendMentor/FourCardLandingPage/images/Mobile-Size-Screenshoot.png)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS3
+- Flexbox
+- Mobile-first workflow
 
 ### What I learned
 
-How to take basic design files made by someone else and make a functioning landing page for a product order. How to interprate others ideas and bring them to life including hover states. 
+During this project, I learned alot about creating mobile friendly sites. Also the process of taking a mobile site and scaling it up as a desktop site.
