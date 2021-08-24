@@ -22,8 +22,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 Small challenge I found on frontend mentor, decided to give it a try, worked on it for a couple of hours of the course of a few days. It's a simple landing page for differnt products.
 ### Screenshot
 
-![Alt text](./Full-Size-Screenshot.png?raw=true)
-![Alt text](./Mobile-Size-Screenshoot.png?raw=true)
+![Alt text](./Full-Size-Screenshot.png)
+![Alt text](./Mobile-Size-Screenshoot.png)
 
 ## My process
 
